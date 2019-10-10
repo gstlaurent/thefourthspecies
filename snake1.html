@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Fourth Species</title>
+<link type="text/css" rel="stylesheet" href="stylesheets/styles.css" />
+<link rel="stylesheet" type="text/css"
+	href="http://fonts.googleapis.com/css?family=Jura|IM+Fell+English:400italic|Reenie+Beanie">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src='scripts/jquery.path.js'></script>
+
+<script type="text/javascript" src="scripts/explications.js"></script>
+<script type="text/javascript" src="scripts/stylings.js"></script>
+<script type="text/javascript" src="scripts/snake.js"></script>
+
+
+</head>
+<body>
+	<div id="topbar" class="fixie">
+		<div id="bartit" class="title">The Fourth Species</div>
+		<div id="barsub" class="subtitle">Graham St-Laurent's Website</div>
+		<div id="tabs">
+			<a class="tab togglink" href="computing.html">computing</a> <a
+				class="tab togglink" href="suspenders.html">suspenders</a> <a
+				class="tab togglink" href="music.html">music</a>
+		</div>
+		<div id="bantit" class="banner title">
+			<a class="togglink" href="index.html">The Fourth Species</a>
+		</div>
+		<div id="bansub" class="subtitle banner">Graham St-Laurent's
+			Website</div>
+	</div>
+	<div id="flap" class="fixie">
+		<div id="explication"></div>
+	</div>
+	<div id="main">
+		<p>
+			This is written in JavaScript with jQuery, and, assuming a div with
+			id "snake" is in some html, the JavaScript file takes care of the
+			rest. Probably making a stylesheet would have been a good idea too,
+			I've now decided. (Probably using the html5 canvas element would
+			have been even smarter: this is what it was designed for, after all!) 
+			There are two modes to the game: one uses built-in animations, and the other simply
+			moves rectangles around. This lets the game run smoothly at both slow
+			and fast speeds while not capping the upper limit prematurely, and not using
+			too much processing power. It automatically chooses the appropriate mode based
+			on your speed. Enjoy!
+		</p>
+
+		<div id="snake"></div>
+		<div id="footer">
+			Contact me: <a href="mailto:gstlaurent@gmail.com">gstlaurent@gmail.com</a>
+		</div>
+
+	</div>
+</body>
+</html>

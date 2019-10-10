@@ -1,0 +1,191 @@
+@CHARSET "UTF-8";
+
+/*
+* {
+	border: 1px dotted;
+}
+*/
+
+.fixie {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.title {
+	font-family: Jura, sans-serif;
+	font-weight: bold;
+	text-shadow: 4px 4px 4px #816A4A; /* #aaa */
+}
+
+.subtitle {
+	font-family: 'Reenie Beanie', serif;
+}
+
+
+#topbar {
+	right: 0;
+	z-index: 2;
+	background-color: orange;
+	opacity: 1;
+}
+#topbar > * {
+	display: inline-block;
+}
+
+
+#bartit {
+	font-size: 1.5em;
+	opacity: 0;
+}
+#barsub {
+	opacity: 0;
+}
+
+#tabs {
+	float: right;
+	height: 100%;
+	line-height: 1.5em;
+}
+.tab {
+	float: right;
+	padding: 0 .5em 0 .5em;
+	font-size: .75em;
+	font-family: sans-serif;
+	transition: background-color, .2s, color .2s;
+	z-index: 3;
+}
+.tab:hover {
+	background-color: black;
+	color: orange;
+}
+.tab:before {
+	content: ": ";
+}
+.tab:after {
+	content: " :";
+}
+
+.togglink {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.littlelink {
+	cursor: pointer;
+}
+
+
+#flap {
+	height: 9em;
+	background-color: orange;
+	z-index: 1;
+}
+#explication {
+	bottom: 10px;
+	padding-left: 4em;
+	padding-right: 4em;
+	font-style: italic;
+	font-family: 'IM Fell English';
+	position: absolute;
+}
+#explication::first-letter {
+	font-size: 2em;
+}
+
+.banner {
+	z-index: 1;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#bantit {
+	font-size: 3em;
+	opacity: 1;
+}
+
+#bansub {
+	font-size: 1.5em;
+	opacity: 1;
+}
+
+
+#main {
+	display: none;
+	position: absolute;
+	top: 9em;
+	margin-left: 50px;
+	margin-right: 50px
+}
+
+
+#footer {
+	margin-top: 50px;
+	clear: both;
+	background-color: orange;
+	padding: 5px;
+}
+
+
+.center {
+	margin: auto;	
+	text-align: center;
+}
+
+#links {
+	font-size: 2em;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+
+#projects li {
+	display:inline-block;
+	text-align: center;
+	margin: 20px;
+	font-size: 1.3em;
+	font-family: sans-serif;
+	width: 200px
+}
+
+/*#projects a {
+	text-decoration: none;
+}
+*/
+#projects .pic {
+	height: 200px;
+}
+
+#tricircle {
+	width: 400px;
+	height: 400px;
+}
+
+area {
+  display: block;
+  cursor: pointer;
+}
+
+area:hover {
+	opacity: 0.5;
+}
+
+.centeredImage
+    {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    }
+
+#snake{
+	margin: auto;
+	}
+
+#snake2{
+	margin: auto;
+	}
